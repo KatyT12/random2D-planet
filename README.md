@@ -4,23 +4,24 @@ It uses the olcpixelgameengine https://github.com/OneLoneCoder/olcPixelGameEngin
 
 Press ENTER to generate a new planet.
 
-Build and run on Linux:
+## Build and run on Linux:
+```
+$ cd Build
 
-cd Build
+$ cmake ..
 
-cmake ..
+$ make
 
-make
-
-./main
-
-Or if you want to have this program ran as a shell command in the terminal you can run install.sh
+$ ./main
+```
+Or if you want to have this program as a shell command in the terminal you can run install.sh
 
 
 note that this script will move the executable to /usr/bin so it will need to be ran with admin privileges
 
-
-sudo ./install.sh (name) 
+```
+$ sudo ./install.sh $(name) 
+```
 
 With name being whatever you would like the name of the command to be
 
