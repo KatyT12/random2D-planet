@@ -17,7 +17,7 @@ $ ./main
 Or if you want to have this program as a shell command in the terminal you can run install.sh
 
 
-note that this script will move the executable to /usr/bin so it will need to be ran with admin privileges
+note that this script will move the executable to /usr/bin so you will need to run it with super user privileges
 
 ```
 $ sudo ./install.sh $(name) 
