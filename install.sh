@@ -8,9 +8,7 @@ fi
 
 name="$1"
 
-mkdir Build
-
-cd Build
+mkdir Build && cd Build
 
 cmake ..
 
