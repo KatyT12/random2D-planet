@@ -54,16 +54,22 @@ class Planet
     void init(olc::vi2d pos)
     {
         color = getRandomColor(5,255);
-        radius = randomDouble(40,80);
-        
-        num = randomInt(4,14);
+        radius = randomDouble(40,150);
+    
+	num = randomInt(4,14);    
 
         generationColors = {};
 
-        if(radius >= 60)
+        if(radius >= 100)
         {
-            nOctaves = randomInt(5,7);
+            nOctaves = randomInt(5,9);
         }
+	else if(radius >= 75 && radius < 100)
+	{
+
+            nOctaves = randomInt(5,7);
+	}
+
         else
         {
             nOctaves = randomInt(4,6);        
