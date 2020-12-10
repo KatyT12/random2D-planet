@@ -43,6 +43,14 @@ class Planet
 
     }
 
+
+    ~Planet()
+    {
+	delete fSeeds;
+	delete PerlInNoise;
+    }
+
+
     void init(olc::vi2d pos)
     {
         color = getRandomColor(5,255);
