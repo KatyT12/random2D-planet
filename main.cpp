@@ -321,7 +321,7 @@ public:
                     {
                         int tX = x + p.radius;
                         int tY = y + p.radius;
-                        Draw(tX + 100,tY+100,p.getColor(tX,tY));    
+                        Draw(tX + ScreenWidth()/2-p.radius,tY+ ScreenHeight()/2-p.radius,p.getColor(tX,tY));    
                     }
                 }
             }
